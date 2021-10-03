@@ -11,7 +11,7 @@ class Solution:
             else:
                 nums1[m+n-1]=nums2[n-1]
                 n=n-1        
-        if (n>0):   #if the length(nums1)=0, i.e m=0 then return all the elements from list 2
+        if (n>0):   #if the length(nums1)=0, i.e m=0 then return all the elements from list 2 a=[0] b=[2] this test case is required when there are no numbers in the nums1 
             nums1[:n]=nums2[:n]
                         
                 
