@@ -14,6 +14,7 @@ class Solution:
         if (n>0):   #if the length(nums1)=0, i.e m=0 then return all the elements from list 2 nums1=[0] nums2=[2] this test case is required when there are no numbers in the nums1 
             nums1[:n]=nums2[:n]
    # Problem Number 88 #############
+###### Time complexity= O(m +n), Space Complexity= O(1) (need to check) ###################
                         
                 
         
