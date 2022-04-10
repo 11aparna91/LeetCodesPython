@@ -12,7 +12,7 @@ class Solution:
         elif self.target < self.nums[mid]: return self.helper(low, mid-1)
         else: return self.helper(mid+1, high)
         
- ############################## Solution 2 #####################
+ ############################## Solution 2  Time complexity= O(log N)  Space Complexity= O(1)#####################
 
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
