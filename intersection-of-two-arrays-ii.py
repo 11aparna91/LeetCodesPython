@@ -13,11 +13,8 @@ class Solution:
         
         nums1.sort()
         nums2.sort()
-        
-        
         one=0
         two=0
-        
         ans=[]
         
         while one < len(nums1) and two < len(nums2):
