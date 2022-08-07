@@ -1,4 +1,5 @@
 #########################################Problem 206###############################
+######### Time Complexity=O(N) Space Complexity=O(1) #############################
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
