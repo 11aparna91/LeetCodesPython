@@ -1,4 +1,5 @@
 ############# Problem Number 189 #################
+######### Time Complexity= O(n) Space Complexity=O(n) ##########
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
@@ -14,7 +15,7 @@ class Solution:
             nums[i]=res[i]
             
             
-##############################################
+############################################## Time complexity= O(n) Space Complexity= O(1) #########
 
 
 class Solution:
