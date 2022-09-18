@@ -1,3 +1,4 @@
+########## Problem Number 299 ######
 ################ Solution 1 ########
 
 s, g = Counter(secret), Counter(guess)
